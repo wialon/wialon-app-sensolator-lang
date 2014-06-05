@@ -1,0 +1,232 @@
+{
+	"app_name": "Sensolator",
+	"app_title": "Sensolator",
+	"background_url": {
+		"title": "Set background image",
+		"url": "URL:",
+		"url_placeholder": "example.com/image.jpg",
+		"set": "OK"
+	},
+	"button_dont_save": "No",
+	"button_save": "Yes",
+	"close_modal_text": "Would you like to save changes?",
+	"close_modal_btn_ok": "OK",
+	"error": "Error",
+	"desktops": {
+		"add_button_title": "Add a desktop",
+		"switch_to": "Switch to desktop ",
+		"delete_desktop": "; Ctrl+Click to delete it"
+	},
+	"errors": {
+		"cant_login": "Login error.",
+		"performing_request": "Error performing request.",
+		"invalid_url": "Invalid URL.",
+		"invalid_image_url": "No image available.",
+		"invalid_image_url_on_page_load": "Unable to load background image.",
+		"cant_create_notification": "Unknown error.",
+		"cant_get_registered_events_to_fetch_notifications": "Unable to load stored events.",
+		"cant_load_interval_to_fetch_notifications": "Unable to load stored events."
+	},
+	"groups": {
+		"graph": "Chart",
+		"text": "Figures",
+		"circle": "Needle",
+		"other": "Scale",
+		"switchers": "Switch"
+	},
+	"gurtam_maps": "Gurtam Maps",
+	"all_units": "Units",
+	"all_sensors": "All sensors",
+	"km_h": "km/h",
+	"last_message": "Last message",
+	"location": "Location",
+	"locale": {
+		"days": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+		"days_short": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+		"months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+		"months_short": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+	},
+	"triggers": "Triggers",
+	"notify_range": {
+		"on": "ON",
+		"off": "OFF",
+		"lower_bound": "From:",
+		"upper_bound": "To:",
+		"control_on_inner": "In range",
+		"control_on_outer": "Out of range",
+		"by_sms": "SMS",
+		"by_email": "E-mail"
+	},
+	"notifications": {
+		"desktop_icon_title": "Notifications",
+		"clear_all": "Clear all",
+		"unit": "Unit",
+		"sensor": "Sensor",
+		"time": "Time",
+		"value": "Value",
+		"email": "E-mail",
+		"email_placeholder": "name@example.com",
+		"phone": "Phone",
+		"phone_placeholder": "+375299000001"
+	},
+	"openstreetmap": "OpenStreetMap",
+	"ok": "OK",
+	"period": {
+		"today": "Today",
+		"yesterday": "Yesterday",
+		"one_week": "Week"
+	},
+	"pin_to_desktop": "Pin to desktop",
+	"restore_custom_fields": "Restore custom fields",
+	"remote_url": {
+		"add": "OK",
+		"add_button": "Add new URL to watch",
+		"add_title": "Watch URL",
+		"edit_title": "Edit URL",
+		"url": "URL:",
+		"url_placeholder": "example.com/streaming/",
+		"save": "OK"
+	},
+	"speed": "Speed",
+	"set_background_map": "Show map on background",
+	"set_background_color": "Set background color",
+	"set_background_image": "Set background image",
+	"sensor_visual_settings": " Additional settings:",
+	"sensor_notification_settings": "Notification:",
+	"sensor_value_and_scale_round": "Integer values",
+	"show_unit_sensor_properties": "Show properties",
+	"show_unit_sensor_info": "Show chart",
+	"time_range_delimiter": " - ",
+	"cancel": "Cancel",
+	"select_sensors_to_watch": "Select sensors to watch:",
+	"update_watch_sensors": "OK",
+	"unpin_from_desktop": "Unpin from desktop",
+	"save_sensor_properties": "OK",
+	"save_user_settings": "OK",
+	"sensor": {
+		"min": "Min:",
+		"max": " Max:",
+		"invalid_value": "Unknown"
+	},
+	"sensor_types": {
+		"impulse fuel consumption": "Impulse fuel consumption sensor",
+		"absolute fuel consumption": "Absolute fuel consumption sensor",
+		"instant fuel consumption": "Instant fuel consumption sensor",
+		"fuel level": "Fuel level sensor",
+		"fuel level impulse sensor": "Fuel level impulse sensor",
+		"temperature": "Temperature sensor",
+		"temperature coefficient": "Temperature coefficient",
+		"engine rpm": "Engine revs sensor",
+		"engine operation": "Engine ignition sensor",
+		"voltage": "Voltage sensor",
+		"digital": "Custom digital sensor",
+		"custom": "Custom sensor",
+		"mileage": "Mileage sensor",
+		"odometer": "Relative odometer",
+		"engine efficiency": "Engine efficiency sensor",
+		"engine hours": "Absolute engine hours",
+		"relative engine hours": "Relative engine hours",
+		"counter": "Counter sensor",
+		"accelerometer": "Accelerometer",
+		"driver": "Driver binding",
+		"trailer": "Trailer binding",
+		"alarm trigger": "Alarm trigger"
+	},
+	"sensor_metrics": {
+		"impulse fuel consumption": {
+			"": ""
+		},
+		"absolute fuel consumption": {
+			"liters": "lt",
+			"gallons": "gal"
+		},
+		"instant fuel consumption": {
+			"": ""
+		},
+		"fuel level": {
+			"liters": "lt",
+			"gallons": "gal"
+		},
+		"fuel level impulse sensor": {
+			"liters": "lt",
+			"gallons": "gal"
+		},
+		"temperature": {
+			"°C": "°C",
+			"°F": "°F"
+		},
+		"temperature coefficient": {
+			"": ""
+		},
+		"engine rpm": {
+			"rpm": "rpm"
+		},
+		"engine operation": {
+			"On/Off": "On/Off"
+		},
+		"voltage": {
+			"V": "V"
+		},
+		"digital": {
+			"On/Off": "On/Off"
+		},
+		"custom": {
+			"": ""
+		},
+		"mileage": {
+			"km": "km",
+			"mi": "mi"
+		},
+		"odometer": {
+			"km": "km",
+			"mi": "mi"
+		},
+		"engine efficiency": {
+			"On/Off": "On/Off"
+		},
+		"engine hours": {
+			"hours": "h"
+		},
+		"relative engine hours": {
+			"hours": "h"
+		},
+		"counter": {
+			"": ""
+		},
+		"accelerometer": {
+			"G": "G"
+		},
+		"driver": {
+			"": ""
+		},
+		"trailer": {
+			"": ""
+		},
+		"alarm trigger": {
+			"": ""
+		}
+	},
+	"sensor_digital_on": "On",
+	"sensor_digital_off": "Off",
+	"sensor_properties_header_prefix": "Sensor ",
+	"sensor_properties_header_middle_part": " of unit ",
+	"sensor_info_header_prefix": "Chart for sensor ",
+	"sensor_info_header_middle_part": " of unit ",
+	"sensor_last_value_prefix": "Last value: ",
+	"sensor_last_value_middle_part": " on ",
+	"widget_show_unit_name": "Include unit's name",
+	"widget_show_axes": "Show grid",
+	"widget_make_style_default": "Make this style default for all sensors of the same type:",
+	"unavailable": "Unavailable",
+	"unique_id": "Unique ID",
+	"unit_sensors": "View properties",
+	"user_settings": {
+		"title": "Notification settings:",
+		"notifications": {
+			"email": "E-mail:",
+			"phone": "Phone:"
+		}
+	},
+	"zoom_in_title": "Zoom in",
+	"zoom_out_title": "Zoom out"
+}

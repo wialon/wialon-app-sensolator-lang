@@ -1,0 +1,232 @@
+{
+	"app_name": "Sensolator",
+	"app_title": "Sensolator",
+	"background_url": {
+		"title": "Установить фоновое изображение",
+		"url": "URL:",
+		"url_placeholder": "example.com/image.jpg",
+		"set": "OK"
+	},
+	"button_dont_save": "Нет",
+	"button_save": "Да",
+	"close_modal_text": "Сохранить изменения?",
+	"close_modal_btn_ok": "OK",
+	"error": "Ошибка",
+	"desktops": {
+		"add_button_title": "Добавить рабочий стол",
+		"switch_to": "Перейти на рабочий стол ",
+		"delete_desktop": "; Ctrl+Click чтобы удалить"
+	},
+	"errors": {
+		"cant_login": "Ошибка входа.",
+		"performing_request": "Ошибка выполнения запроса.",
+		"invalid_url": "Неверный URL.",
+		"invalid_image_url": "Изображение недоступно.",
+		"invalid_image_url_on_page_load": "Не удалось загрузить фоновое изображение.",
+		"cant_create_notification": "Неизвестная ошибка.",
+		"cant_get_registered_events_to_fetch_notifications": "Не удалось получить срабатывания.",
+		"cant_load_interval_to_fetch_notifications": "Не удалось получить срабатывания."
+	},
+	"groups": {
+		"graph": "График",
+		"text": "Цифры",
+		"circle": "Стрелка",
+		"other": "Шкала",
+		"switchers": "Переключатель"
+	},
+	"gurtam_maps": "Gurtam Maps",
+	"all_units": "Объекты",
+	"all_sensors": "Все датчики",
+	"km_h": "км/ч",
+	"last_message": "Последнее сообщение",
+	"location": "Положение",
+	"locale": {
+		"days": ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"],
+		"days_short": ["вск", "пнд", "втр", "срд", "чтв", "птн", "сбт"],
+		"months": ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+		"months_short": ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"]
+	},
+	"triggers": "Срабатывания",
+	"notify_range": {
+		"on": "ВКЛ",
+		"off": "ВЫКЛ",
+		"lower_bound": "От:",
+		"upper_bound": "До:",
+		"control_on_inner": "Внутри диапазона",
+		"control_on_outer": "За пределами",
+		"by_sms": "SMS",
+		"by_email": "E-mail"
+	},
+	"notifications": {
+		"desktop_icon_title": "Уведомления",
+		"clear_all": "Очистить все",
+		"unit": "Объект",
+		"sensor": "Датчик",
+		"time": "Время",
+		"value": "Значение",
+		"email": "E-mail",
+		"email_placeholder": "name@example.com",
+		"phone": "Телефон",
+		"phone_placeholder": "+375299000001"
+	},
+	"openstreetmap": "OpenStreetMap",
+	"ok": "OK",
+	"period": {
+		"today": "Сегодня",
+		"yesterday": "Вчера",
+		"one_week": "Неделя"
+	},
+	"pin_to_desktop": "Отправить на рабочий стол",
+	"restore_custom_fields": "Восстановить произвольные поля",
+	"remote_url": {
+		"add": "OK",
+		"add_button": "Добавить URL для слежения",
+		"add_title": "Отслеживать URL",
+		"edit_title": "Редактировать URL",
+		"url": "URL:",
+		"url_placeholder": "example.com/streaming/",
+		"save": "OK"
+	},
+	"speed": "Скорость",
+	"set_background_map": "Подложить карту",
+	"set_background_color": "Установить цвет фона",
+	"set_background_image": "Установить фоновое изображение",
+	"sensor_visual_settings": " Дополнительные настройки:",
+	"sensor_notification_settings": "Уведомление:",
+	"sensor_value_and_scale_round": "Целые значения",
+	"show_unit_sensor_properties": "Показать свойства",
+	"show_unit_sensor_info": "Показать график",
+	"time_range_delimiter": " - ",
+	"cancel": "Отмена",
+	"select_sensors_to_watch": "Выберите датчики для слежения:",
+	"update_watch_sensors": "OK",
+	"unpin_from_desktop": "Убрать с рабочего стола",
+	"save_sensor_properties": "OK",
+	"save_user_settings": "OK",
+	"sensor": {
+		"min": "Мин.:",
+		"max": " Макс.:",
+		"invalid_value": "Неизвестно"
+	},
+	"sensor_types": {
+		"impulse fuel consumption": "Импульсный датчик расхода топлива",
+		"absolute fuel consumption": "Датчик абсолютного расхода топлива",
+		"instant fuel consumption": "Датчик мгновенного расхода топлива",
+		"fuel level": "Датчик уровня топлива",
+		"fuel level impulse sensor": "Импульсный датчик уровня топлива",
+		"temperature": "Датчик температуры",
+		"temperature coefficient": "Коэффициент температуры",
+		"engine rpm": "Датчик оборотов двигателя",
+		"engine operation": "Датчик зажигания",
+		"voltage": "Датчик напряжения",
+		"digital": "Произвольный цифровой датчик",
+		"custom": "Произвольный датчик",
+		"mileage": "Датчик пробега",
+		"odometer": "Относительный одометр",
+		"engine efficiency": "Датчик полезной работы двигателя",
+		"engine hours": "Абсолютные моточасы",
+		"relative engine hours": "Относительные моточасы",
+		"counter": "Счетчик",
+		"accelerometer": "Акселерометр",
+		"driver": "Привязка водителя",
+		"trailer": "Привязка прицепа",
+		"alarm trigger": "Тревожная кнопка"
+	},
+	"sensor_metrics": {
+		"impulse fuel consumption": {
+			"": ""
+		},
+		"absolute fuel consumption": {
+			"liters": "л",
+			"gallons": "гал"
+		},
+		"instant fuel consumption": {
+			"": ""
+		},
+		"fuel level": {
+			"liters": "л",
+			"gallons": "гал"
+		},
+		"fuel level impulse sensor": {
+			"liters": "л",
+			"gallons": "гал"
+		},
+		"temperature": {
+			"°C": "°C",
+			"°F": "°F"
+		},
+		"temperature coefficient": {
+			"": ""
+		},
+		"engine rpm": {
+			"rpm": "об/мин"
+		},
+		"engine operation": {
+			"On/Off": "Вкл/Выкл"
+		},
+		"voltage": {
+			"V": "V"
+		},
+		"digital": {
+			"On/Off": "Вкл/Выкл"
+		},
+		"custom": {
+			"": ""
+		},
+		"mileage": {
+			"km": "км",
+			"mi": "ми"
+		},
+		"odometer": {
+			"km": "км",
+			"mi": "ми"
+		},
+		"engine efficiency": {
+			"On/Off": "Вкл/Выкл"
+		},
+		"engine hours": {
+			"hours": "ч."
+		},
+		"relative engine hours": {
+			"hours": "ч."
+		},
+		"counter": {
+			"": ""
+		},
+		"accelerometer": {
+			"G": "G"
+		},
+		"driver": {
+			"": ""
+		},
+		"trailer": {
+			"": ""
+		},
+		"alarm trigger": {
+			"": ""
+		}
+	},
+	"sensor_digital_on": "Вкл",
+	"sensor_digital_off": "Выкл",
+	"sensor_properties_header_prefix": "Датчик ",
+	"sensor_properties_header_middle_part": " объекта ",
+	"sensor_info_header_prefix": "График датчика ",
+	"sensor_info_header_middle_part": " объекта ",
+	"sensor_last_value_prefix": "Последнее значение: ",
+	"sensor_last_value_middle_part": " на момент ",
+	"widget_show_unit_name": "Включить имя объекта",
+	"widget_show_axes": "Отображать сетку",
+	"widget_make_style_default": "Применять выбранный стиль ко всем датчикам такого типа:",
+	"unavailable": "Недоступно",
+	"unique_id": "Уникальный ID",
+	"unit_sensors": "Просмотреть свойства",
+	"user_settings": {
+		"title": "Настройки уведомлений:",
+		"notifications": {
+			"email": "E-mail:",
+			"phone": "Телефон:"
+		}
+	},
+	"zoom_in_title": "Увеличить масштаб",
+	"zoom_out_title": "Уменьшить масштаб"
+}
