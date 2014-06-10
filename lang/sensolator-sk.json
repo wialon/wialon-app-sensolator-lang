@@ -2,34 +2,34 @@
 	"app_name": "Sensolator",
 	"app_title": "Sensolator",
 	"background_url": {
-		"title": "Set background image",
+		"title": "Nastav obrázok pozadia",
 		"url": "URL:",
 		"url_placeholder": "example.com/image.jpg",
 		"set": "OK"
 	},
-	"button_dont_save": "No",
-	"button_save": "Yes",
-	"close_modal_text": "Would you like to save changes?",
+	"button_dont_save": "Nie",
+	"button_save": "Áno",
+	"close_modal_text": "Chcete uložiť zmeny?",
 	"close_modal_btn_ok": "OK",
-	"error": "Error",
+	"error": "Chyba",
 	"desktops": {
-		"add_button_title": "Add a desktop",
-		"switch_to": "Switch to desktop ",
-		"delete_desktop": "; Ctrl+Click to delete it"
+		"add_button_title": "Pridať plochu",
+		"switch_to": "Prepnúť na plochu",
+		"delete_desktop": "; Ctrl+Klik pre zmazanie"
 	},
 	"errors": {
-		"cant_login": "Login error.",
-		"performing_request": "Error performing request.",
-		"invalid_url": "Invalid URL.",
-		"invalid_image_url": "No image available.",
-		"invalid_image_url_on_page_load": "Unable to load background image.",
-		"cant_create_notification": "Unknown error.",
-		"cant_get_registered_events_to_fetch_notifications": "Unable to load stored events.",
-		"cant_load_interval_to_fetch_notifications": "Unable to load stored events."
+		"cant_login": "Chyba prihlásenia.",
+		"performing_request": "Chyba pri realizácii požiadavky.",
+		"invalid_url": "Neplatná adresa URL.",
+		"invalid_image_url": "Obrázok nie je dostupný.",
+		"invalid_image_url_on_page_load": "Nie je možné načítať obrázok pozadia.",
+		"cant_create_notification": "Neznáma chyba.",
+		"cant_get_registered_events_to_fetch_notifications": "Nie je možné načítať uložené udalosti.",
+		"cant_load_interval_to_fetch_notifications": "Nie je možné načítať uložené udalosti."
 	},
 	"groups": {
-		"graph": "Chart",
-		"text": "Figures",
+		"graph": "Graf",
+		"text": "Čísla",
 		"circle": "Needle",
 		"other": "Scale",
 		"switchers": "Switch"
