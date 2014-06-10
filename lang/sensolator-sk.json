@@ -108,28 +108,28 @@
 		"invalid_value": "Neznámy"
 	},
 	"sensor_types": {
-		"impulse fuel consumption": "Impulse fuel consumption sensor",
-		"absolute fuel consumption": "Absolute fuel consumption sensor",
-		"instant fuel consumption": "Instant fuel consumption sensor",
-		"fuel level": "Fuel level sensor",
-		"fuel level impulse sensor": "Fuel level impulse sensor",
-		"temperature": "Temperature sensor",
-		"temperature coefficient": "Temperature coefficient",
-		"engine rpm": "Engine revs sensor",
-		"engine operation": "Engine ignition sensor",
-		"voltage": "Voltage sensor",
-		"digital": "Custom digital sensor",
-		"custom": "Custom sensor",
-		"mileage": "Mileage sensor",
-		"odometer": "Relative odometer",
-		"engine efficiency": "Engine efficiency sensor",
-		"engine hours": "Absolute engine hours",
-		"relative engine hours": "Relative engine hours",
-		"counter": "Counter sensor",
-		"accelerometer": "Accelerometer",
-		"driver": "Driver binding",
-		"trailer": "Trailer binding",
-		"alarm trigger": "Alarm trigger"
+		"impulse fuel consumption": "Impulzný snímač spotreby paliva",
+		"absolute fuel consumption": "Absolútny senzor merania spotreby",
+		"instant fuel consumption": "Senzor okamžitej spotreby palivar",
+		"fuel level": "Senzor hladiny paliva",
+		"fuel level impulse sensor": "Impulzný snímač hladiny paliva",
+		"temperature": "Senzor teploty",
+		"temperature coefficient": "Teplotný koeficient",
+		"engine rpm": "Senzor otáčok motora",
+		"engine operation": "Senzor zapaľovania motora",
+		"voltage": "Senzor napätia",
+		"digital": "Vlastné digitálne senzory",
+		"custom": "Vlastné senzory",
+		"mileage": "Senzor vzdialenosti",
+		"odometer": "Relatívny odometer",
+		"engine efficiency": "Senzor účinnosti motora",
+		"engine hours": "Absolútne motohodiny",
+		"relative engine hours": "Relatívne motohodiny",
+		"counter": "Senzor výpočtu",
+		"accelerometer": "Merač zrýchlenia",
+		"driver": "Pripojenie vodiča",
+		"trailer": "Pripojenie prívesu",
+		"alarm trigger": "Spúšť alarmu"
 	},
 	"sensor_metrics": {
 		"impulse fuel consumption": {
@@ -158,16 +158,16 @@
 			"": ""
 		},
 		"engine rpm": {
-			"rpm": "rpm"
+			"rpm": "ot"
 		},
 		"engine operation": {
-			"On/Off": "On/Off"
+			"On/Off": "Zap/Vyp"
 		},
 		"voltage": {
 			"V": "V"
 		},
 		"digital": {
-			"On/Off": "On/Off"
+			"On/Off": "Zap/Vyp"
 		},
 		"custom": {
 			"": ""
@@ -181,7 +181,7 @@
 			"mi": "mi"
 		},
 		"engine efficiency": {
-			"On/Off": "On/Off"
+			"On/Off": "Zap/Vyp"
 		},
 		"engine hours": {
 			"hours": "h"
@@ -205,27 +205,27 @@
 			"": ""
 		}
 	},
-	"sensor_digital_on": "On",
-	"sensor_digital_off": "Off",
-	"sensor_properties_header_prefix": "Sensor ",
-	"sensor_properties_header_middle_part": " of unit ",
-	"sensor_info_header_prefix": "Chart for sensor ",
-	"sensor_info_header_middle_part": " of unit ",
-	"sensor_last_value_prefix": "Last value: ",
-	"sensor_last_value_middle_part": " on ",
-	"widget_show_unit_name": "Include unit's name",
-	"widget_show_axes": "Show grid",
-	"widget_make_style_default": "Make this style default for all sensors of the same type:",
-	"unavailable": "Unavailable",
-	"unique_id": "Unique ID",
-	"unit_sensors": "View properties",
+	"sensor_digital_on": "Zap",
+	"sensor_digital_off": "Vyp",
+	"sensor_properties_header_prefix": "Senzor ",
+	"sensor_properties_header_middle_part": " vozidla ",
+	"sensor_info_header_prefix": "Graf senzoru ",
+	"sensor_info_header_middle_part": " vozidla ",
+	"sensor_last_value_prefix": "Posledná hodnota: ",
+	"sensor_last_value_middle_part": " v ",
+	"widget_show_unit_name": "Obsahuje meno vozidla",
+	"widget_show_axes": "Zobraziť mriežku",
+	"widget_make_style_default": "Nastaviť ako predvolený štýl pre všetky senzory rovnakého typu:",
+	"unavailable": "Nedostupné",
+	"unique_id": "Unikátne ID",
+	"unit_sensors": "Zobrazenie vlastností",
 	"user_settings": {
-		"title": "Notification settings:",
+		"title": "Nastavenie upozornenia:",
 		"notifications": {
 			"email": "E-mail:",
-			"phone": "Phone:"
+			"phone": "Telefón:"
 		}
 	},
-	"zoom_in_title": "Zoom in",
-	"zoom_out_title": "Zoom out"
+	"zoom_in_title": "Priblížiť",
+	"zoom_out_title": "Oddialiť"
 }
