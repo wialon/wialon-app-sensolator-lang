@@ -27,6 +27,7 @@
 		"cant_get_registered_events_to_fetch_notifications": "Unable to load stored events.",
 		"cant_load_interval_to_fetch_notifications": "Unable to load stored events."
 	},
+	"example_name": "Example name",
 	"groups": {
 		"graph": "Chart",
 		"text": "Figures",

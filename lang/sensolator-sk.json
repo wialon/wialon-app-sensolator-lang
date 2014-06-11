@@ -27,6 +27,7 @@
 		"cant_get_registered_events_to_fetch_notifications": "Nie je možné načítať uložené udalosti.",
 		"cant_load_interval_to_fetch_notifications": "Nie je možné načítať uložené udalosti."
 	},
+	"example_name": "Príklad názvu",
 	"groups": {
 		"graph": "Graf",
 		"text": "Čísla",

@@ -27,6 +27,7 @@
 		"cant_get_registered_events_to_fetch_notifications": "Не удалось получить срабатывания.",
 		"cant_load_interval_to_fetch_notifications": "Не удалось получить срабатывания."
 	},
+	"example_name": "Название",
 	"groups": {
 		"graph": "График",
 		"text": "Цифры",
