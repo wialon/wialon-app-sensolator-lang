@@ -1,0 +1,231 @@
+{
+	"app_name": "Sensolator",
+	"app_title": "Sensolator",
+	"background_url": {
+		"title": "Nastav obrázok pozadia",
+		"url": "URL:",
+		"url_placeholder": "example.com/image.jpg",
+		"set": "OK"
+	},
+	"button_dont_save": "Nie",
+	"button_save": "Áno",
+	"close_modal_text": "Chcete uložiť zmeny?",
+	"close_modal_btn_ok": "OK",
+	"error": "Chyba",
+	"desktops": {
+		"add_button_title": "Pridať plochu",
+		"switch_to": "Prepnúť na plochu",
+		"delete_desktop": "; Ctrl+Klik pre zmazanie"
+	},
+	"errors": {
+		"cant_login": "Chyba prihlásenia.",
+		"performing_request": "Chyba pri realizácii požiadavky.",
+		"invalid_url": "Neplatná adresa URL.",
+		"invalid_image_url": "Obrázok nie je dostupný.",
+		"invalid_image_url_on_page_load": "Nie je možné načítať obrázok pozadia.",
+		"cant_create_notification": "Neznáma chyba.",
+		"cant_get_registered_events_to_fetch_notifications": "Nie je možné načítať uložené udalosti.",
+		"cant_load_interval_to_fetch_notifications": "Nie je možné načítať uložené udalosti."
+	},
+	"groups": {
+		"graph": "Graf",
+		"text": "Čísla",
+		"circle": "Prístroj",
+		"other": "Stupnica",
+		"switchers": "Prepínač"
+	},
+	"gurtam_maps": "Gurtam Mapy",
+	"all_units": "Vozidlo",
+	"all_sensors": "Všetky senzory",
+	"last_message": "Posledná správa",
+	"location": "Pozícia",
+	"locale": {
+		"days": ["Nedeľa", "Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota"],
+		"days_short": ["Ne", "Po", "Ut", "St", "Št", "Pi", "So"],
+		"months": ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Október", "November", "December"],
+		"months_short": ["Jan", "Feb", "Mar", "Apr", "Maj", "Jún", "Júl", "Aug", "Sep", "Okt", "Nov", "Dec"]
+	},
+	"triggers": "Spúšťač",
+	"notify_range": {
+		"on": "ZAP",
+		"off": "VYP",
+		"lower_bound": "Od:",
+		"upper_bound": "Do:",
+		"control_on_inner": "V rozsahu",
+		"control_on_outer": "Mimo rozsahu",
+		"by_sms": "SMS",
+		"by_email": "E-mail"
+	},
+	"notifications": {
+		"desktop_icon_title": "Upozornenie",
+		"clear_all": "Vymazať všetko",
+		"unit": "Vozidlo",
+		"sensor": "Senzor",
+		"time": "Čas",
+		"value": "Hodnota",
+		"email": "E-mail",
+		"email_placeholder": "meno@priklad.sk",
+		"phone": "Telefón",
+		"phone_placeholder": "+375299000001"
+	},
+	"openstreetmap": "OpenStreetMap",
+	"ok": "OK",
+	"period": {
+		"today": "Dnes",
+		"yesterday": "Včera",
+		"one_week": "Týždeň"
+	},
+	"pin_to_desktop": "Pripnúť na plochu",
+	"restore_custom_fields": "Obnoviť vlastné pole",
+	"remote_url": {
+		"add": "OK",
+		"add_button": "Pridať novú URL adresu pre náhľad",
+		"add_title": "Pozri URL",
+		"edit_title": "Edituj URL",
+		"url": "URL:",
+		"url_placeholder": "example.com/streaming/",
+		"save": "OK"
+	},
+	"speed": "Rýchlosť",
+	"set_background_map": "Zobrazenie mapy na pozadí",
+	"set_background_color": "Nastavenie farby pozadia",
+	"set_background_image": "Nastavenie obrázku pozadia",
+	"sensor_visual_settings": " Ďalšie nastavenia:",
+	"sensor_notification_settings": "Oznámenia:",
+	"sensor_value_and_scale_round": "Číselné hodnoty",
+	"show_unit_sensor_properties": "Zobraziť vlastnosti",
+	"show_unit_sensor_info": "Zobraziť graf",
+	"time_range_delimiter": " - ",
+	"cancel": "Zrušiť",
+	"select_sensors_to_watch": "Vyberte senzor pre zobrazenie:",
+	"update_watch_sensors": "OK",
+	"unpin_from_desktop": "Uvoľniť z plochy",
+	"save_sensor_properties": "OK",
+	"save_user_settings": "OK",
+	"sensor": {
+		"min": "Min:",
+		"max": " Max:",
+		"invalid_value": "Neznámy"
+	},
+	"sensor_types": {
+		"impulse fuel consumption": "Impulzný snímač spotreby paliva",
+		"absolute fuel consumption": "Absolútny senzor merania spotreby",
+		"instant fuel consumption": "Senzor okamžitej spotreby palivar",
+		"fuel level": "Senzor hladiny paliva",
+		"fuel level impulse sensor": "Impulzný snímač hladiny paliva",
+		"temperature": "Senzor teploty",
+		"temperature coefficient": "Teplotný koeficient",
+		"engine rpm": "Senzor otáčok motora",
+		"engine operation": "Senzor zapaľovania motora",
+		"voltage": "Senzor napätia",
+		"digital": "Vlastné digitálne senzory",
+		"custom": "Vlastné senzory",
+		"mileage": "Senzor vzdialenosti",
+		"odometer": "Relatívny odometer",
+		"engine efficiency": "Senzor účinnosti motora",
+		"engine hours": "Absolútne motohodiny",
+		"relative engine hours": "Relatívne motohodiny",
+		"counter": "Senzor výpočtu",
+		"accelerometer": "Merač zrýchlenia",
+		"driver": "Pripojenie vodiča",
+		"trailer": "Pripojenie prívesu",
+		"alarm trigger": "Spúšť alarmu"
+	},
+	"sensor_metrics": {
+		"impulse fuel consumption": {
+			"": ""
+		},
+		"absolute fuel consumption": {
+			"liters": "lt",
+			"gallons": "gal"
+		},
+		"instant fuel consumption": {
+			"": ""
+		},
+		"fuel level": {
+			"liters": "lt",
+			"gallons": "gal"
+		},
+		"fuel level impulse sensor": {
+			"liters": "lt",
+			"gallons": "gal"
+		},
+		"temperature": {
+			"°C": "°C",
+			"°F": "°F"
+		},
+		"temperature coefficient": {
+			"": ""
+		},
+		"engine rpm": {
+			"rpm": "ot"
+		},
+		"engine operation": {
+			"On/Off": "Zap/Vyp"
+		},
+		"voltage": {
+			"V": "V"
+		},
+		"digital": {
+			"On/Off": "Zap/Vyp"
+		},
+		"custom": {
+			"": ""
+		},
+		"mileage": {
+			"km": "km",
+			"mi": "mi"
+		},
+		"odometer": {
+			"km": "km",
+			"mi": "mi"
+		},
+		"engine efficiency": {
+			"On/Off": "Zap/Vyp"
+		},
+		"engine hours": {
+			"hours": "h"
+		},
+		"relative engine hours": {
+			"hours": "h"
+		},
+		"counter": {
+			"": ""
+		},
+		"accelerometer": {
+			"G": "G"
+		},
+		"driver": {
+			"": ""
+		},
+		"trailer": {
+			"": ""
+		},
+		"alarm trigger": {
+			"": ""
+		}
+	},
+	"sensor_digital_on": "Zap",
+	"sensor_digital_off": "Vyp",
+	"sensor_properties_header_prefix": "Senzor ",
+	"sensor_properties_header_middle_part": " vozidla ",
+	"sensor_info_header_prefix": "Graf senzoru ",
+	"sensor_info_header_middle_part": " vozidla ",
+	"sensor_last_value_prefix": "Posledná hodnota: ",
+	"sensor_last_value_middle_part": " v ",
+	"widget_show_unit_name": "Obsahuje meno vozidla",
+	"widget_show_axes": "Zobraziť mriežku",
+	"widget_make_style_default": "Nastaviť ako predvolený štýl pre všetky senzory rovnakého typu:",
+	"unavailable": "Nedostupné",
+	"unique_id": "Unikátne ID",
+	"unit_sensors": "Zobrazenie vlastností",
+	"user_settings": {
+		"title": "Nastavenie upozornenia:",
+		"notifications": {
+			"email": "E-mail:",
+			"phone": "Telefón:"
+		}
+	},
+	"zoom_in_title": "Priblížiť",
+	"zoom_out_title": "Oddialiť"
+}
