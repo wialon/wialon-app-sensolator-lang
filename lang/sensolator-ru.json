@@ -11,11 +11,26 @@
 	"button_save": "Да",
 	"close_modal_text": "Сохранить изменения?",
 	"close_modal_btn_ok": "OK",
+	"copy": "Копировать",
+	"counter_info_header": "График %%COUNTER%% объекта %%UNIT%%",
+	"counter_info_header_names": {
+		"Mileage": "счетчика пробега",
+		"EngineHours": "счетчика моточасов",
+		"Traffic": "счетчика GPRS-трафика"
+	},
+	"counter_properties_header": "%%COUNTER%% объекта %%UNIT%%",
+	"counters": {
+		"Mileage": "Счетчик пробега",
+		"EngineHours": "Счетчик моточасов",
+		"Traffic": "Счетчик GPRS-трафика"
+	},
 	"error": "Ошибка",
+	"delete": "Удалить",
+	"desktop_delete_confirm": "Вы действительно хотите удалить рабочий стол \"%%DESKTOP_NAME%%\"?",
+	"desktop_name_default": "Стол %%DESKTOP_ID%%",
+	"desktop_name_placeholder": "Название стола",
 	"desktops": {
-		"add_button_title": "Добавить рабочий стол",
-		"switch_to": "Перейти на рабочий стол ",
-		"delete_desktop": "; Ctrl+Click чтобы удалить"
+		"add_button_title": "Добавить рабочий стол"
 	},
 	"errors": {
 		"cant_login": "Ошибка входа.",
@@ -23,11 +38,10 @@
 		"invalid_url": "Неверный URL.",
 		"invalid_image_url": "Изображение недоступно.",
 		"invalid_image_url_on_page_load": "Не удалось загрузить фоновое изображение.",
-		"cant_create_notification": "Неизвестная ошибка.",
+		"cant_create_notification": "Вы достигли максимально разрешенного количества уведомлений.",
 		"cant_get_registered_events_to_fetch_notifications": "Не удалось получить срабатывания.",
 		"cant_load_interval_to_fetch_notifications": "Не удалось получить срабатывания."
 	},
-	"example_name": "Название",
 	"groups": {
 		"graph": "График",
 		"text": "Цифры",
@@ -46,6 +60,14 @@
 		"days_short": ["вск", "пнд", "втр", "срд", "чтв", "птн", "сбт"],
 		"months": ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
 		"months_short": ["Янв", "Фев", "Мар", "Апр", "Май", "Июн", "Июл", "Авг", "Сен", "Окт", "Ноя", "Дек"]
+	},
+	"measure_units": {
+		"Mileage": {
+			"0": "км",
+			"1": "ми"
+		},
+		"EngineHours": "ч.",
+		"Traffic": "Кб"
 	},
 	"triggers": "Срабатывания",
 	"notify_range": {
@@ -95,10 +117,13 @@
 	"sensor_visual_settings": " Дополнительные настройки:",
 	"sensor_notification_settings": "Уведомление:",
 	"sensor_value_and_scale_round": "Целые значения",
+	"show_unit_counter_properties": "Показать свойства",
+	"show_unit_counter_info": "Показать график",
 	"show_unit_sensor_properties": "Показать свойства",
 	"show_unit_sensor_info": "Показать график",
 	"time_range_delimiter": " - ",
 	"cancel": "Отмена",
+	"select_counters_to_watch": "Выберите счетчики для слежения:",
 	"select_sensors_to_watch": "Выберите датчики для слежения:",
 	"update_watch_sensors": "OK",
 	"unpin_from_desktop": "Убрать с рабочего стола",
@@ -107,7 +132,8 @@
 	"sensor": {
 		"min": "Мин.:",
 		"max": " Макс.:",
-		"invalid_value": "Неизвестно"
+		"invalid_value": "Неизвестно",
+		"background_placeholder": "example.com/background.jpg"
 	},
 	"sensor_types": {
 		"impulse fuel consumption": "Импульсный датчик расхода топлива",
@@ -209,15 +235,14 @@
 	},
 	"sensor_digital_on": "Вкл",
 	"sensor_digital_off": "Выкл",
-	"sensor_properties_header_prefix": "Датчик ",
-	"sensor_properties_header_middle_part": " объекта ",
-	"sensor_info_header_prefix": "График датчика ",
-	"sensor_info_header_middle_part": " объекта ",
+	"sensor_properties_header": "Датчик %%SENSOR%% объекта %%UNIT%%",
+	"sensor_info_header": "График датчика %%SENSOR%% объекта %%UNIT%%",
 	"sensor_last_value_prefix": "Последнее значение: ",
 	"sensor_last_value_middle_part": " на момент ",
 	"widget_show_unit_name": "Включить имя объекта",
 	"widget_show_axes": "Отображать сетку",
-	"widget_make_style_default": "Применять выбранный стиль ко всем датчикам такого типа:",
+	"widget_counter_make_style_default": "Применять выбранный стиль ко всем счетчикам такого типа:",
+	"widget_sensor_make_style_default": "Применять выбранный стиль ко всем датчикам такого типа:",
 	"unavailable": "Недоступно",
 	"unique_id": "Уникальный ID",
 	"unit_sensors": "Просмотреть свойства",

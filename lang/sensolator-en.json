@@ -11,11 +11,26 @@
 	"button_save": "Yes",
 	"close_modal_text": "Would you like to save changes?",
 	"close_modal_btn_ok": "OK",
+	"copy": "Copy",
+	"counter_info_header": "Chart for %%COUNTER%% of unit %%UNIT%%",
+	"counter_info_header_names": {
+		"Mileage": "mileage counter",
+		"EngineHours": "engine hours counter",
+		"Traffic": "GPRS traffic counter"
+	},
+	"counter_properties_header": "%%COUNTER%% of unit %%UNIT%%",
+	"counters": {
+		"Mileage": "Mileage counter",
+		"EngineHours": "Engine hours counter",
+		"Traffic": "GPRS traffic counter"
+	},
 	"error": "Error",
+	"delete": "Delete",
+	"desktop_delete_confirm": "Are you sure you want to delete desktop \"%%DESKTOP_NAME%%\"?",
+	"desktop_name_default": "Desktop %%DESKTOP_ID%%",
+	"desktop_name_placeholder": "Desktop name",
 	"desktops": {
-		"add_button_title": "Add a desktop",
-		"switch_to": "Switch to desktop ",
-		"delete_desktop": "; Ctrl+Click to delete it"
+		"add_button_title": "Add a desktop"
 	},
 	"errors": {
 		"cant_login": "Login error.",
@@ -23,11 +38,10 @@
 		"invalid_url": "Invalid URL.",
 		"invalid_image_url": "No image available.",
 		"invalid_image_url_on_page_load": "Unable to load background image.",
-		"cant_create_notification": "Unknown error.",
+		"cant_create_notification": "You reached the limit of notifications allowed.",
 		"cant_get_registered_events_to_fetch_notifications": "Unable to load stored events.",
 		"cant_load_interval_to_fetch_notifications": "Unable to load stored events."
 	},
-	"example_name": "Example name",
 	"groups": {
 		"graph": "Chart",
 		"text": "Figures",
@@ -46,6 +60,14 @@
 		"days_short": ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
 		"months": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
 		"months_short": ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+	},
+	"measure_units": {
+		"Mileage": {
+			"0": "km",
+			"1": "mi"
+		},
+		"EngineHours": "h",
+		"Traffic": "KB"
 	},
 	"triggers": "Triggers",
 	"notify_range": {
@@ -95,10 +117,13 @@
 	"sensor_visual_settings": " Additional settings:",
 	"sensor_notification_settings": "Notification:",
 	"sensor_value_and_scale_round": "Integer values",
+	"show_unit_counter_properties": "Show properties",
+	"show_unit_counter_info": "Show chart",
 	"show_unit_sensor_properties": "Show properties",
 	"show_unit_sensor_info": "Show chart",
 	"time_range_delimiter": " - ",
 	"cancel": "Cancel",
+	"select_counters_to_watch": "Select counters to watch:",
 	"select_sensors_to_watch": "Select sensors to watch:",
 	"update_watch_sensors": "OK",
 	"unpin_from_desktop": "Unpin from desktop",
@@ -107,7 +132,8 @@
 	"sensor": {
 		"min": "Min:",
 		"max": " Max:",
-		"invalid_value": "Unknown"
+		"invalid_value": "Unknown",
+		"background_placeholder": "example.com/background.jpg"
 	},
 	"sensor_types": {
 		"impulse fuel consumption": "Impulse fuel consumption sensor",
@@ -209,15 +235,14 @@
 	},
 	"sensor_digital_on": "On",
 	"sensor_digital_off": "Off",
-	"sensor_properties_header_prefix": "Sensor ",
-	"sensor_properties_header_middle_part": " of unit ",
-	"sensor_info_header_prefix": "Chart for sensor ",
-	"sensor_info_header_middle_part": " of unit ",
+	"sensor_properties_header": "Sensor %%SENSOR%% of unit %%UNIT%%",
+	"sensor_info_header": "Chart for %%SENSOR%% of unit %%UNIT%%",
 	"sensor_last_value_prefix": "Last value: ",
 	"sensor_last_value_middle_part": " on ",
 	"widget_show_unit_name": "Include unit's name",
 	"widget_show_axes": "Show grid",
-	"widget_make_style_default": "Make this style default for all sensors of the same type:",
+	"widget_counter_make_style_default": "Make this style default for all counters of the same type:",
+	"widget_sensor_make_style_default": "Make this style default for all sensors of the same type:",
 	"unavailable": "Unavailable",
 	"unique_id": "Unique ID",
 	"unit_sensors": "View properties",

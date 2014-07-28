@@ -11,11 +11,26 @@
 	"button_save": "Áno",
 	"close_modal_text": "Chcete uložiť zmeny?",
 	"close_modal_btn_ok": "OK",
+	"copy": "Copy",
+	"counter_info_header": "Graf senzoru %%COUNTER%% vozidla %%UNIT%%",
+	"counter_info_header_names": {
+		"Mileage": "výpočet vzdialenosti",
+		"EngineHours": "výpočet motohodín",
+		"Traffic": "výpočet GPRS premávky"
+	},
+	"counter_properties_header": "%%COUNTER%% of unit %%UNIT%%",
+	"counters": {
+		"Mileage": "Výpočet vzdialenosti",
+		"EngineHours": "Výpočet motohodín",
+		"Traffic": "Výpočet GPRS premávky"
+	},
 	"error": "Chyba",
+	"delete": "Delete",
+	"desktop_delete_confirm": "Are you sure you want to delete desktop \"%%DESKTOP_NAME%%\"?",
+	"desktop_name_default": "Desktop %%DESKTOP_ID%%",
+	"desktop_name_placeholder": "Desktop name",
 	"desktops": {
-		"add_button_title": "Pridať plochu",
-		"switch_to": "Prepnúť na plochu",
-		"delete_desktop": "; Ctrl+Klik pre zmazanie"
+		"add_button_title": "Pridať plochu"
 	},
 	"errors": {
 		"cant_login": "Chyba prihlásenia.",
@@ -23,11 +38,10 @@
 		"invalid_url": "Neplatná adresa URL.",
 		"invalid_image_url": "Obrázok nie je dostupný.",
 		"invalid_image_url_on_page_load": "Nie je možné načítať obrázok pozadia.",
-		"cant_create_notification": "Neznáma chyba.",
+		"cant_create_notification": "You reached the limit of notifications allowed.",
 		"cant_get_registered_events_to_fetch_notifications": "Nie je možné načítať uložené udalosti.",
 		"cant_load_interval_to_fetch_notifications": "Nie je možné načítať uložené udalosti."
 	},
-	"example_name": "Príklad názvu",
 	"groups": {
 		"graph": "Graf",
 		"text": "Čísla",
@@ -45,6 +59,14 @@
 		"days_short": ["Ne", "Po", "Ut", "St", "Št", "Pi", "So"],
 		"months": ["Január", "Február", "Marec", "Apríl", "Máj", "Jún", "Júl", "August", "September", "Október", "November", "December"],
 		"months_short": ["Jan", "Feb", "Mar", "Apr", "Maj", "Jún", "Júl", "Aug", "Sep", "Okt", "Nov", "Dec"]
+	},
+	"measure_units": {
+		"Mileage": {
+			"0": "km",
+			"1": "mi"
+		},
+		"EngineHours": "h",
+		"Traffic": "KB"
 	},
 	"triggers": "Spúšťač",
 	"notify_range": {
@@ -94,10 +116,13 @@
 	"sensor_visual_settings": " Ďalšie nastavenia:",
 	"sensor_notification_settings": "Oznámenia:",
 	"sensor_value_and_scale_round": "Číselné hodnoty",
+	"show_unit_counter_properties": "Zobraziť vlastnosti",
+	"show_unit_counter_info": "Zobraziť graf",
 	"show_unit_sensor_properties": "Zobraziť vlastnosti",
 	"show_unit_sensor_info": "Zobraziť graf",
 	"time_range_delimiter": " - ",
 	"cancel": "Zrušiť",
+	"select_counters_to_watch": "Select counters to watch:",
 	"select_sensors_to_watch": "Vyberte senzor pre zobrazenie:",
 	"update_watch_sensors": "OK",
 	"unpin_from_desktop": "Uvoľniť z plochy",
@@ -106,7 +131,8 @@
 	"sensor": {
 		"min": "Min:",
 		"max": " Max:",
-		"invalid_value": "Neznámy"
+		"invalid_value": "Neznámy",
+		"background_placeholder": "example.com/background.jpg"
 	},
 	"sensor_types": {
 		"impulse fuel consumption": "Impulzný snímač spotreby paliva",
@@ -208,15 +234,14 @@
 	},
 	"sensor_digital_on": "Zap",
 	"sensor_digital_off": "Vyp",
-	"sensor_properties_header_prefix": "Senzor ",
-	"sensor_properties_header_middle_part": " vozidla ",
-	"sensor_info_header_prefix": "Graf senzoru ",
-	"sensor_info_header_middle_part": " vozidla ",
+	"sensor_properties_header": "Senzor %%SENSOR%% vozidla %%UNIT%%",
+	"sensor_info_header": "Graf senzoru %%SENSOR%% vozidla %%UNIT%%",
 	"sensor_last_value_prefix": "Posledná hodnota: ",
 	"sensor_last_value_middle_part": " v ",
 	"widget_show_unit_name": "Obsahuje meno vozidla",
 	"widget_show_axes": "Zobraziť mriežku",
-	"widget_make_style_default": "Nastaviť ako predvolený štýl pre všetky senzory rovnakého typu:",
+	"widget_sensor_make_style_default": "Nastaviť ako predvolený štýl pre všetky senzory rovnakého typu:",
+	"widget_counter_make_style_default": "Nastaviť ako predvolený štýl pre všetky výpočet rovnakého typu:",
 	"unavailable": "Nedostupné",
 	"unique_id": "Unikátne ID",
 	"unit_sensors": "Zobrazenie vlastností",
