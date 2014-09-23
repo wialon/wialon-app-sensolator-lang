@@ -164,18 +164,18 @@
 			"": ""
 		},
 		"absolute fuel consumption": {
-			"liters": "lt",
+			"lt": "lt",
 			"gallons": "gal"
 		},
 		"instant fuel consumption": {
 			"": ""
 		},
 		"fuel level": {
-			"liters": "lt",
+			"lt": "lt",
 			"gallons": "gal"
 		},
 		"fuel level impulse sensor": {
-			"liters": "lt",
+			"lt": "lt",
 			"gallons": "gal"
 		},
 		"temperature": {
