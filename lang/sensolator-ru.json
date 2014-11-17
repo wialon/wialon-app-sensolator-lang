@@ -133,7 +133,9 @@
 		"min": "Мин.:",
 		"max": " Макс.:",
 		"invalid_value": "Неизвестно",
-		"background_placeholder": "example.com/background.jpg"
+		"background_placeholder": "example.com/background.jpg",
+		"color_scheme": "Цветовая схема:",
+		"reset": "Сбросить"
 	},
 	"sensor_types": {
 		"impulse fuel consumption": "Импульсный датчик расхода топлива",

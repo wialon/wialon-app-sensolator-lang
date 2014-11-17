@@ -133,7 +133,9 @@
 		"min": "Min:",
 		"max": " Max:",
 		"invalid_value": "Unknown",
-		"background_placeholder": "example.com/background.jpg"
+		"background_placeholder": "example.com/background.jpg",
+		"color_scheme": "Color scheme:",
+		"reset": "Reset"
 	},
 	"sensor_types": {
 		"impulse fuel consumption": "Impulse fuel consumption sensor",

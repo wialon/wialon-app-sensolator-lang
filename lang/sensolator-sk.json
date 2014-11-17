@@ -132,7 +132,9 @@
 		"min": "Min:",
 		"max": " Max:",
 		"invalid_value": "Neznámy",
-		"background_placeholder": "example.com/background.jpg"
+		"background_placeholder": "example.com/background.jpg",
+		"color_scheme": "Farebná schéma:",
+		"reset": "Obnoviť"
 	},
 	"sensor_types": {
 		"impulse fuel consumption": "Impulzný snímač spotreby paliva",
